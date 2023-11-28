@@ -1,0 +1,378 @@
+/* Fonts - Import Poppins from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* Update CSS styles for a Netflix-inspired design */
+
+/* Fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* Header */
+.netflix-header {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.navbar h1 {
+    font-size: 2.5em;
+    color: #e50914; /* Netflix red */
+    margin: 0;
+}
+
+nav p {
+    text-align: right;
+    cursor: pointer;
+}
+
+.cta-button2, .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-button2 {
+    background-color: transparent;
+    border: 2px solid #e50914;
+    color: #e50914;
+    margin-right: 20px;
+}
+
+.cta-button {
+    background-color: #e50914;
+    color: #fff;
+}
+
+.cta-button2:hover, .cta-button:hover {
+    background-color: #f40612;
+    border-color: #f40612;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    color: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px 20px; /* Adjust padding for smaller screens */
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+/* Main and Footer styles - Customize as needed */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #141414;
+    color: #757575;
+    padding: 20px;
+}
+
+/* ... (Existing CSS rules) ... */
+
+/* Sections Styling */
+.netflix-section {
+    background-color: #141414;
+    color: #fff;
+    border-bottom: 1px solid #333; /* Add a bottom border to separate sections */
+    padding-bottom: 20px; /* Adjust padding between sections */
+    margin-bottom: 0; /* Add space between sections */
+    background-color: #141414; /* Set the background color */
+    /* border-bottom: 1px solid #666;  Add grey bottom border to separate sections */ 
+}
+
+.netflix-section:last-child {
+    border-bottom: none; /* Remove bottom border from the last section */
+}
+
+.netflix-section .section-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px; /* Adjust padding inside sections */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px; /* Adjust padding inside sections */
+}
+
+.netflix-section h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.netflix-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.netflix-section .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #e50914;
+    color: #fff;
+}
+
+.netflix-section .cta-button:hover {
+    background-color: #f40612;
+}
+
+/* ... (Existing CSS rules) ... */
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 20% auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.close {
+    color: #757575;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* ... (existing CSS styles) ... */
+
+/* Download Button Styles */
+
+.android-download-button {
+    text-align: center;
+    margin-top: 20px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #000; /* Set background color */
+    padding: 30px 20px; /* Adjust padding */
+    border-top: 1px solid #333; /* Add border between sections */
+}
+/* Pop-up Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 20% auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.close {
+    color: #757575;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* ... (existing CSS rules) ... */
+
+/* About Cinexa Section */
+.about-section .section-content {
+    /* ... (existing styles) ... */
+    max-width: 800px;
+    margin: 0 0 0 0; /* Separate from the previous section */
+    padding: 70px 20px; /* Adjust padding inside sections */
+    text-align: center; /* Center the text */
+    background-color: #000; /* Set black background color */
+    color: #fff; /* Set text color to white */
+}
+
+/* Subscribe Section */
+.subscribe-section .section-content {
+    /* ... (existing styles) ... */
+    max-width: 800px;
+    margin: 0 0; /* Separate from the previous section */
+    padding: 50px 20px; /* Adjust padding inside sections */
+    text-align: center; /* Center the text */
+    background-color: #000; /* Set black background color */
+    color: #fff; /* Set text color to white */
+}
+
+/* Binge-watch Section */
+.binge-watch-section .section-content {
+    /* ... (existing styles) ... */
+    max-width: 800px;
+    margin: 0 0; /* Separate from the previous section */
+    padding: 50px 20px; /* Adjust padding inside sections */
+    text-align: center; /* Center the text */
+    background-color: #000; /* Set black background color */
+    color: #fff; /* Set text color to white */
+}
+
+
+/* Adjust Button Text Color */
+.android-download-button .cta-button {
+    color: #fff; /* Set text color to white */
+}
+
+
+.android-download-button {
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px 20px; /* Adjust padding */
+    background-color: #000; /* Set black background color */
+    color: #fff; /* Set text color to white */
+    border-top: 1px solid #333; /* Add border between sections */
+}
+
+
+
+/* Media Queries for responsiveness */
+
+/* Tablet and Larger Mobile Devices */
+@media screen and (max-width: 768px) {
+    /* Header */
+    .netflix-header {
+        height: 80vh; /* Adjust header height for smaller screens */
+    }
+
+    /* Hero Section */
+    .hero {
+        padding: 60px 20px; /* Adjust padding for smaller screens */
+    }
+
+    .netflix-section {
+        background-color: #141414;
+        color: #fff;
+        border-bottom: 1px solid #333; /* Add a bottom border to separate sections */
+        padding-bottom: 20px; /* Adjust padding between sections */
+        margin-bottom: 0; /* Add space between sections */
+        background-color: #141414; /* Set the background color */
+        /* border-bottom: 1px solid #666;  Add grey bottom border to separate sections */ 
+    }
+
+    /* Sections Styling */
+    .netflix-section .section-content {
+        padding: 40px 20px; /* Adjust padding for smaller screens */
+    }
+
+      /* Sections Styling */
+      .about-section .section-content,
+      .subscribe-section .section-content,
+      .binge-watch-section .section-content,
+      .android-download-button {
+          max-width: 90%; /* Adjust max-width for smaller screens */
+          margin: 30px auto; /* Adjust margin for smaller screens */
+          padding: 30px 10px; /* Adjust padding for smaller screens */
+      }
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 480px) {
+    /* Header */
+    .netflix-header {
+        height: 80vh; /* Further adjust header height for smaller screens */
+    }
+
+    /* Hero Section */
+    .hero {
+        padding: 40px 10px; /* Adjust padding for smaller screens */
+    }
+
+    .netflix-section {
+        background-color: #141414;
+        color: #fff;
+        border-bottom: 1px solid #333; /* Add a bottom border to separate sections */
+        padding-bottom: 20px; /* Adjust padding between sections */
+        margin-bottom: 0; /* Add space between sections */
+        background-color: #141414; /* Set the background color */
+        /* border-bottom: 1px solid #666;  Add grey bottom border to separate sections */ 
+    }
+
+    /* Sections Styling */
+    .netflix-section .section-content {
+        padding: 20px 10px; /* Adjust padding for smaller screens */
+    }
+
+    /* Footer */
+    .footer {
+        padding: 10px; /* Adjust footer padding for smaller screens */
+    }
+
+    /* Sections Styling */
+    .about-section .section-content,
+    .subscribe-section .section-content,
+    .binge-watch-section .section-content,
+    .android-download-button {
+        max-width: 90%; /* Adjust max-width for smaller screens */
+        margin: 20px auto; /* Adjust margin for smaller screens */
+        padding: 20px; /* Adjust padding for smaller screens */
+        
+    }
+
+}
